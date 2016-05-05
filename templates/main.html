@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+    {% block header%}
+        {{parent()}}
+         <div class="slider">
+            <div class="container" >
+                <div class="row">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                              <div class="bannertext">
+                                <h2>Нээлттэй боловсролын шинэ вэбийн туршилтын хувилбар гарлаа.</h2>
+                                <p><img src="img/mongolbichig-har.png" style="width:65px;float:right;margin-top: -20px;"> 2015 оны 11 сарын 1-с Вэбийг шинэчилсэн хувилбар оруулах төсөл хэрэгжиж эхний байдлаар үзүүлэд байна. Та бүхэн санал бодлоо бидэнтэй хуваалцана уу. Санлуудыг <a href="#">info@alchemist.mn</a> хүлээн авч байна. </p>
+
+                              </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                   <br/><br/>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2 text-center">
+                        <a class="btn btn-default">Нээлттэй сургалт</a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a class="btn btn-default">Онлайнаар багшлах  </a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a class="btn btn-default">Хан Академи</a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                        <a class="btn btn-default">Мэдээ, мэдээлэл</a>
+                    </div>
+                   <div class="col-md-2"></div>
+                   <br/><br/><br/><br/>
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+        {% block content %}
+            {{parent()}}
+            <div class="row">
+            <div class="col-md-12 text-center">
+                <br/>
+                <br/>
+            </div>
+        </div>
+        <div class="row text-center partners">
+            <div class="col-md-3">
+                <a href="#"><img src="img/bn1.png"></a>
+                <h3>Нэг монгол</h3>
+            </div>
+             <div class="col-md-3">
+                <a href="#"><img src="img/bn2.png"></a>
+                <h3>Кан академи</h3>
+            </div>
+             <div class="col-md-3">
+                <a href="#"><img src="img/bn3.png"></a>
+                <h3>ОЮУНЫ БҮТЭЭЛЧ ХАМТЫН ӨМЧ</h3>
+            </div>
+             <div class="col-md-3">
+                <a href="#"><img src="img/bn4.png"></a>
+                <h3>НЭГ СУРГУУЛЬ</h3>
+            </div>
+        </div>
+        <br/>
+        <br/>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
